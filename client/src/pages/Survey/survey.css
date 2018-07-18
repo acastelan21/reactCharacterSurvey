@@ -1,0 +1,16 @@
+ul {
+    list-style: none;
+   }
+.survey{
+    margin-bottom: 75px;
+   
+}
+input[type="radio"]{
+    margin: 0 10px 0 10px;
+  }
+  h2{
+      text-align: center
+  }
+li {
+    display:inline;
+}
