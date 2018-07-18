@@ -1,25 +1,19 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import axios from "axios";
 import Wrapper from "./components/Wrapper";
 import {Router, Route} from "react-router-dom";
 import history from "./history";
 import Home from "./pages/Home";
 import Survey from "./pages/Survey";
 import Results from "./pages/Results";
-
-
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 class App extends Component {
-  // getGetRequest(){
-   
-  //   axios.get("/api/database").then(res => {
-  //    console.log(res); 
-  //      	   })
-  //   	 }
+
   render() {
     return (
       <Wrapper>
+        <NavBar/>
         <Router history={history}>
           <div>
             <Route exact path = "/" component={Home}/>
@@ -27,6 +21,7 @@ class App extends Component {
             <Route path = "/survey/results" component={Results}/>
           </div>
         </Router>
+        <Footer/>
       </Wrapper>
     );
   }
