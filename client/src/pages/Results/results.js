@@ -7,9 +7,10 @@ class Results extends Component {
 
 
 render(){
+    console.log(this.saveState)
 return(
 
-<div> Results Page </div>
+<div> Results Page</div>
 
 
 

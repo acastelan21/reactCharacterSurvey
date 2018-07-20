@@ -1,4 +1,5 @@
 import React, {Component} from "react"; 
+
 import "./survey.css"
 class Survey extends Component {
     constructor(){
@@ -41,7 +42,8 @@ class Survey extends Component {
         console.log(this.state)
       }
 render(){
-    
+    const saveState= this.props.q1
+
 return(
 
 <div className="survey"> 
@@ -612,7 +614,7 @@ return(
 
       </ul>
 
-      <button type="submit">See Results</button>
+      <a href="/survey/results" className="btn btn-primary btn-lg active" role="button" aria-pressed="true">See Results</a>
     </form>
 
 

@@ -5,13 +5,17 @@
   "proxy": "http://localhost:3001",
   "dependencies": {
     "@types/react-radio-group": "^3.0.1",
+    "@types/react-redux": "^6.0.4",
     "axios": "^0.18.0",
     "history": "^4.7.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-radio-group": "^3.0.3",
+    "react-redux": "^5.0.7",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "react-thunk": "^1.0.0",
+    "redux": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
