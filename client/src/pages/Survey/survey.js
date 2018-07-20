@@ -42,7 +42,7 @@ class Survey extends Component {
         console.log(this.state)
       }
 render(){
-    const saveState= this.props.q1
+   
 
 return(
 
