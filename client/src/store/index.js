@@ -1,9 +1,27 @@
 import {createStore} from "redux";
 
 const initialState = {
-    q1: "" ,
+    q1:"",
     q2:"",
-    
+    q3:"",
+    q4:"",
+    q5:"",
+    q6:"",
+    q7:"",
+    q8:"",
+    q9:"",
+    q10:"",
+    q11:"",
+    q12:"",
+    q13:"",
+    q14:"",
+    q15:"",
+    q16:"",
+    q17:"",
+    q18:"",
+    q19:"",
+    q20:""
+
     
 }
 
@@ -30,8 +48,8 @@ const reducer =( state = initialState, action) => {
 console.log("reducer", action);
     switch(action.type){
         case "CHANGE_ANSWER":
-            console.log("target name in store", action.target)
-            return Object.assign( {}, state, {[action.target] : action.answer})
+            
+            return Object.assign( {}, state, {[action.questionNumber] : action.answer})
             
         case "ADD_ITEM":
             return Object.assign({}, state, {answers: state.answers.concat(state.q1)});

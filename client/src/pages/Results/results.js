@@ -1,22 +1,20 @@
 import React from "react"; 
+
 import {connect} from "react-redux";
 const Results = (props) => {
-  
-    console.log("props", props)
+
+
 return(
+<div className="surveyPage"> 
 
 
-<div> 
-{props.results}
-  </div>
-
-
+</div>
 );
 }
 function mapStateToProps (state) {
     console.log("state in results", state)
     return {
-        results: state.q1
+        results: state
     };
 }
 export default connect(mapStateToProps)(Results); 
