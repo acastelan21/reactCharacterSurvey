@@ -8,18 +8,19 @@ import Survey from "./pages/Survey";
 import Results from "./pages/Results";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
-
+import store from "./store/index";
+import { Provider } from "react-redux"; 
 
 class App extends Component {
   
   render() {
-    console.log(this.props);
+    console.log("store", store)
     return (
       
         <Wrapper>
           <NavBar/>
         
-          
+          <Provider store ={store}>
           <Router history={history}>
             <div >
               <Route exact path = "/" component={Home}/>
@@ -27,6 +28,7 @@ class App extends Component {
               <Route path = "/survey/results" component={Results}/>
             </div>
           </Router>
+          </Provider>
           <Footer/>
         </Wrapper>
       
