@@ -14,3 +14,20 @@ input[type="radio"]{
 li {
     display:inline;
 }
+.card-body{
+    text-align: center;
+}
+card-img-top{
+    width:28.6rem;
+    height:22.8rem;
+}
+#parksAndRecResult {
+    float: left;
+}
+#theOfficeResult {
+    float: right;
+}
+h3 {
+    margin: auto;
+    text-align: center
+}
