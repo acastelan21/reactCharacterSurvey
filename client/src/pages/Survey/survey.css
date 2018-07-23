@@ -17,9 +17,9 @@ li {
 .card-body{
     text-align: center;
 }
-card-img-top{
-    width:28.6rem;
-    height:22.8rem;
+.card-img-top {
+    
+    height:14.8rem;
 }
 #parksAndRecResult {
     float: left;
