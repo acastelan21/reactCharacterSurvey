@@ -178,7 +178,8 @@ console.log("final results", finalResult);
 
   <img className="card-img-top" src={this.state.officeGif} alt="Card image cap"/>
   <div className="card-body">
-    <p className="card-text">{this.state.officeCharacter}</p>
+    <h4 className="card-text">{this.state.officeCharacter}</h4>
+    <p> The Office </p>
 </div>
 </div>
 </div>
@@ -187,7 +188,8 @@ console.log("final results", finalResult);
 
   <img className="card-img-top" src={this.state.parksAndRecGif} alt="Card image cap"/>
   <div className="card-body">
-    <p className="card-text">{this.state.parksAndRecCharacter}</p>
+    <h4 className="card-text">{this.state.parksAndRecCharacter}</h4>
+    <p> Parks and Rec</p>
 </div>
 </div>
 </div>
