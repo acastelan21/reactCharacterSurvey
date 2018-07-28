@@ -2,6 +2,12 @@
   "name": "reactcharactersurvey",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "install": "cd client && yarn install",
+    "build": "cd client && yarn run build",
+    "heroku-postbuild": "yarn run build"
+  },
   "repository": "git@github.com:acastelan21/reactCharacterSurvey.git",
   "author": "AlCast <alvaro.castelan.21@gmail.com>",
   "license": "MIT",
