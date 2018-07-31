@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import {connect} from "react-redux";
 import axios from "axios";
-
+import "./results.css";
 class Results extends Component{
     constructor(props){
         super(props);
