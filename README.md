@@ -17,7 +17,7 @@ You can see the deployed website [Here](https://gentle-escarpment-99587.herokuap
 + Axios
 + Yarn
 
-## Authors
+## Author(s)
 Alvaro Castelan | [LinkedIn](https://www.linkedin.com/in/alvarocastelan) | [Portfolio](alvarocastelan.com)
 
 

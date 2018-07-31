@@ -2,7 +2,8 @@ ul {
     list-style: none;
    }
 .survey{
-    margin-bottom: 75px;
+    margin-bottom: 65px;
+    min-height: 700px
    
 }
 input[type="radio"]{
@@ -30,4 +31,19 @@ li {
 h3 {
     margin: auto;
     text-align: center
+}
+form {
+    background-color: rgba(97, 134, 202, 0.95);
+    width: 80%; 
+    margin: auto; 
+    margin-top: 20px;
+    
+
+}
+
+form a {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    margin-left: 40px;
 }
